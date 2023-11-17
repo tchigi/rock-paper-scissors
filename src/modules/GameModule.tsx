@@ -1,9 +1,9 @@
 
 const GameModule = () => {
     return (
-        <div>
+        <main className="grow">
             
-        </div>
+        </main>
     );
 };
 

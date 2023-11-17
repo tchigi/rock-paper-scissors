@@ -19,9 +19,26 @@ export default {
                 'dark': ['hsl(229, 25%, 31%)'],
                 'score': ['hsl(229, 64%, 46%)'],
             },
+            fill: {
+                'dark': ['hsl(229, 25%, 31%)'],
+            },
             borderColor: {
                 'header': ['hsl(217, 16%, 45%)'],
-            }
+            },
+            animation: {
+                slideIn: "slideIn 0.5s ease-in-out",
+                slideOut: "slideOut 0.5s ease-in-out"
+            },
+            keyframes: {
+                slideIn: {
+                    "0%": {top: "100%"},
+                    "100%": {top: "0px"},
+                },
+                slideOut: {
+                    "0%": {top: "0px"},
+                    "100%": {top: "100%"},
+                },
+            },
         },
     },
     plugins: [],
