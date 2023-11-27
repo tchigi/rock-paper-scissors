@@ -5,7 +5,7 @@ import ScoreModule from "./modules/ScoreModule.tsx";
 function App() {
 
     return (
-        <div className="font-barlow bg-bg h-screen flex flex-col">
+        <div className="font-barlow bg-bg min-h-screen flex flex-col gap-[20px]">
             <ScoreModule></ScoreModule>
             <GameModule></GameModule>
             <RulesModule></RulesModule>

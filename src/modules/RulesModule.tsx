@@ -10,9 +10,9 @@ const RulesModule = () => {
     }
 
     return (
-        <footer className="mb-[30px] self-center sm:self-end sm:mr-[30px]">
+        <footer className="mb-8 self-center sm:self-end sm:mr-8">
             <Popup isActive={isActivePopup} onClick={onClickHandler}/>
-            <Button label={"RULES"} theme={"dark"} size={"sm"} onClick={onClickHandler}/>
+            <Button label={"RULES"} theme={"dark"} onClick={onClickHandler}/>
         </footer>
     );
 };
